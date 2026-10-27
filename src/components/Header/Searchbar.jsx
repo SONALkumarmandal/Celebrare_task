@@ -12,7 +12,7 @@ function Searchbar({ value, onChange, onClear, className = '' }) {
       <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400">
         <circle cx="11" cy="11" r="7" />
         <path strokeLinecap="round" d="m20 20-4-4" />
-      </svg>
+      </svg> 
       {value && (
         <button
           type="button"

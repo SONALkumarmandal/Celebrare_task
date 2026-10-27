@@ -24,6 +24,7 @@ function useFetchPhotos() {
         }
 
         setPhotos(data)
+        console.log(data)
       } catch (fetchError) {
         if (fetchError.name !== 'AbortError') {
           setError(fetchError.message || 'Unable to load photos. Please try again.')
