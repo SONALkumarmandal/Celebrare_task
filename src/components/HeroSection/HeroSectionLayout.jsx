@@ -61,7 +61,7 @@ function Gallery({ searchTerm = '', onSearchChange, onClearSearch }) {
 
   return (
     <main>
-      <section className="relative isolate overflow-hidden bg-gradient-to-br from-slate-950 via-cyan-950 to-slate-900">
+      <section className="relative isolate overflow-hidden bg-linear-to-br from-slate-950 via-cyan-950 to-slate-900">
         <div aria-hidden="true" className="absolute -right-24 -top-32 h-96 w-96 rounded-full bg-cyan-500/20 blur-3xl" />
         <div aria-hidden="true" className="absolute -bottom-48 -left-20 h-96 w-96 rounded-full bg-blue-500/10 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20">

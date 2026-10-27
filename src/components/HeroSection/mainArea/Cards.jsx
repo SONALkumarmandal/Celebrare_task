@@ -6,7 +6,7 @@ function Cards({ photo, isFavorite = false, onToggleFavorite }) {
           src={photo.download_url}
           alt={`Photo by ${photo.author}`}
           loading="lazy"
-          className="aspect-[4/3] w-full object-cover transition duration-500 group-hover:scale-105"
+          className="aspect-/3 w-full object-cover transition duration-500 group-hover:scale-105"
         />
         <button
           type="button"
