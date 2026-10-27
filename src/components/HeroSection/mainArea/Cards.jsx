@@ -1,12 +1,12 @@
 function Cards({ photo, isFavorite = false, onToggleFavorite }) {
   return (
     <article className="group w-full overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/80 transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-900/10">
-      <div className="relative overflow-hidden bg-slate-100">
+      <div className="relative aspect-3/2 overflow-hidden bg-slate-100">
         <img
           src={photo.download_url}
           alt={`Photo by ${photo.author}`}
           loading="lazy"
-          className="aspect-/3 w-full object-cover transition duration-500 group-hover:scale-105"
+          className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
         />
         <button
           type="button"
