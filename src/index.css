@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.gallery-search-input::-webkit-search-cancel-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.gallery-search-input::-ms-clear {
+  display: none;
+}
