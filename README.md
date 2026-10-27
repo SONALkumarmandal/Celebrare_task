@@ -115,4 +115,4 @@ frontend/
 
 ## License
 
-Add a license to this repository if you intend to distribute or reuse the project. Until then, all rights remain with the respective content owner Sonal Kumar Mandal.
+Add a license to this repository if you intend to distribute or reuse the project. Until then, all rights remain with content owner Sonal Kumar Mandal.
